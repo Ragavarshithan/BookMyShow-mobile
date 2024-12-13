@@ -40,7 +40,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -54,13 +53,11 @@ class SplashScreen extends StatelessWidget {
 
     // Show splash screen UI
     return Scaffold(
-      body: Center(
-        child:
-          Text("BookMyShow")
-        // Image.asset('assets/bookmyshow1.jpg',
-        // fit: BoxFit.cover,
-        // ),
-      ),
+      body: Center(child: Text("BookMyShow")
+          // Image.asset('assets/bookmyshow1.jpg',
+          // fit: BoxFit.cover,
+          // ),
+          ),
     );
   }
 }
