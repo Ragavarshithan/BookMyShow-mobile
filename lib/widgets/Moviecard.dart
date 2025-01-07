@@ -49,21 +49,21 @@ class MovieCard extends StatelessWidget {
                       Text(
                         genre,
                         style: const TextStyle(
-                          fontSize: 14,
+                          fontSize: 11,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       const Text(
-                        " | ",
+                        "|",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 11,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       Text(
                         language,
                         style: const TextStyle(
-                          fontSize: 14,
+                          fontSize: 11,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
