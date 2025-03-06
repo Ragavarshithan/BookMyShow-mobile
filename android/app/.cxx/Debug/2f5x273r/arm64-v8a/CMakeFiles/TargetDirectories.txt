@@ -1,0 +1,2 @@
+C:/Users/ragav/Desktop/BookMyShow/android/app/.cxx/Debug/2f5x273r/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/ragav/Desktop/BookMyShow/android/app/.cxx/Debug/2f5x273r/arm64-v8a/CMakeFiles/rebuild_cache.dir

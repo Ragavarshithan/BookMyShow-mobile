@@ -1,3 +1,4 @@
+import 'package:bookmyshow/screens/showTimes.dart';
 import 'package:flutter/material.dart';
 
 class MovieDetailsPage extends StatelessWidget {
@@ -81,7 +82,14 @@ class MovieDetailsPage extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: ElevatedButton(
-          onPressed: (){},
+          onPressed: (){
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => Showtimes(movieName: movName,)
+                )
+            );
+          },
           child: Text(
               "Book Tickets",
               style: TextStyle(
